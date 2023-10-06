@@ -145,6 +145,7 @@ h1 {
   height: 62%;
   padding: 20px;
   background: #211F52;
+  box-shadow: 0px 0px 7px 1px #716bd3;
  }
 
  .result { background: #131130; }
