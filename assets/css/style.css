@@ -184,6 +184,7 @@ h1 {
 
 .copy_button::before {
   content: "\f0ea";
+  padding: 5px;
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
