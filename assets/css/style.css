@@ -152,11 +152,11 @@ h1 {
  .generate_pass_btn { background: #36338B; }
 
  .output { 
-  display: flex;
-    align-items: center;
     height: 41px;
-    padding: 10px;
     margin-bottom: 22px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
     background: #131130;
 }
   
