@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,17 +98,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,7 +172,10 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
+.cf:after {
+  clear: both;
+}
+
 /* .cf { *zoom: 1; } */
 
 /*for all*/
@@ -87,9 +184,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -100,9 +197,10 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 86%;
   margin: 0 auto;
 }
+
 /*=================================
   common class styling starts here
 =================================*/
@@ -111,26 +209,27 @@ li {
 .caps-first { text-transform: capitalize; }
 .color-voilet { background: #131130; }
 
-h1 { 
+h1 {
   margin: 10px 0 20px;
   font-size: 28px;
   font-weight: 600;
-  text-align: center; 
+  text-align: center;
 }
 
 .flex {
   display: flex;
   justify-content: space-between;
 }
+
 /*=================================
   common class styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
 =================================*/
 
-.password_generator { 
+.password_generator {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -138,39 +237,41 @@ h1 {
   align-items: center;
   justify-content: center;
   background: #3B3B98;
- }
+}
 
- .password_generator .wrapper {
-  width: 27%;
-  height: 62%;
+.password_generator .wrapper {
+  width: 25%;
+  height: 52%;
   padding: 20px;
   background: #211F52;
   box-shadow: 0px 0px 7px 1px #716bd3;
- }
-
- .result { background: #131130; }
- .copy_button { background: #36338B; }
- .generate_pass_btn { background: #36338B; }
-
- .output { 
-    height: 41px;
-    margin-bottom: 22px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    background: #131130;
 }
-  
-.setting { margin-bottom: 19px; }  
 
- .btn {
+.result { background: #131130; }
+.copy_button { background: #36338B; }
+.generate_pass_btn { background: #36338B; }
+
+.output {
+  height: 41px;
+  margin-bottom: 22px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #131130;
+}
+
+.setting { margin-bottom: 19px; }
+
+.btn {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- }
+}
 
- .btn a { 
-  padding: 10px 99px;
+.btn a {
+  width: 51%;
+  padding: 3% 26%;
   font-size: 18px;
   font-weight: 600;
   white-space: nowrap;
@@ -183,6 +284,7 @@ h1 {
 }
 
 .copy_button::before {
+  padding: 5px;
   content: "\f0ea";
   font-family: "fontAwesome";
   text-indent: 0;
@@ -191,6 +293,7 @@ h1 {
 }
 
 .password_length { width: 31px; }
+
 /*=================================
   main styling ends here
 =================================*/
@@ -199,6 +302,15 @@ h1 {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+  .btn {
+    width: 36%;
+    height: 50%;
+  }
 
+}
 
-}  
+@media only screen and (max-height: 654px) {
+
+  .password_generator .wrapper { height: 58%; }
+
+}
