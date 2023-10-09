@@ -311,6 +311,6 @@ h1 {
 
 @media only screen and (max-height: 654px) {
 
-  .password_generator .wrapper { height: 58%; }
+  .password_generator .wrapper { height: 62%; }
 
 }
